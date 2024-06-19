@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: rgb(183, 203, 203);
+}
+.logo {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    /* padding: 10px 0; */
+    background-color: darkcyan;
+    box-shadow: 0 10px 10px rgb(82, 118, 111);
+    font-size: 50px;
+}
+
+.my-logo{
+    font-family: "Playwrite PL", cursive;
+}
+.my-spl-logo{
+    font-family: cursive;
+    color: white;
+    font-weight: 900;
+}
+
+.add-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.2rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.add-form h3 {
+    font-size: 30px;
+}
+
+.add-form select {
+    font-size: 15px;
+    padding: 8px 20px;
+    border: 1px solid darkcyan;
+    border-radius: 1.5rem;
+    background-color: darkcyan;
+    color: white;
+}
+.add-form option {
+    background-color: white;
+    color: black;
+}
+
+.add-form  option:hover {
+    background-color: darkcyan;
+}
+
+.add-form input {
+    width: 400px;
+    height: auto;
+    padding: 12px 30px;
+    border-radius: 1.5rem;
+    /* border: 1px solid darkcyan; */
+    border: none;
+    background-color: rgb(208, 225, 225);
+}
+.add-form input:focus{
+    outline: none;
+}
+
+.add-form button{
+    padding: 10px 30px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.add-form button:hover {
+    background-color: rgb(38, 73, 73);
+    transition: 0.3s;
+}
+
+.list-dropdown {
+    margin-top: 70px;
+    position: relative;
+    
+}
+
+.list {
+    margin-left: 140px;
+    margin-right:100px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 1.5rem;
+    font-size: 30px;
+    overflow: auto;
+    width: full;
+    height: 200px;
+} 
+
+/* 
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10rem;
+    margin-left: 140px;
+    margin-right:100px;
+    width: 1000px;
+    height: 200px;
+    overflow: auto;
+} */
+
+
+.list-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.list-item button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.list-item input {
+    width: 50px;
+    height: 20px;
+    align-items: center;
+}
+
+.sort-list{
+    display: flex;
+    gap: 1.5rem;
+    position:absolute;    
+    justify-content: center;
+    top:300px;
+    align-items: center;
+    width: 100%;
+}
+
+.sort-list button{
+    background-color: darkcyan;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 17px;
+    cursor: pointer;
+}
+.sort-list button:hover {
+    background-color: rgb(38, 73, 73);
+    transition: 0.3s;
+}
+
+.sort-list select {
+    font-size: 15px;
+    padding: 10px 10px;
+    border: 1px solid darkcyan;
+    border-radius: 1.5rem;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bolder;
+}
+
+.sort-list option {
+    background-color: white;
+    color: black;
+}
+
+.stats {
+    width: 100%;
+    display: flex;
+    background-color: darkcyan;
+    justify-content: center;
+    position:absolute;
+    bottom: 0%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+ /* @media (max-width: 768px) {
+    /* Adjustments for tablets and smaller devices */
+    /* .logo {
+        font-size: 6vw;
+    }
+    .add-form {
+        padding: 0;
+    }
+    .stats {
+        font-size: 2vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    * {
+        width: 100%;
+    } */ 
+    /* Add more responsive adjustments as needed */
