@@ -24,7 +24,7 @@ export default function App() {
     );
   }
 
-  function handleClearItems() {
+  function handleClearAllItems() {
     const confirmed = window.confirm("Are you sure you want to delete all items?");
     if (confirmed) setItems([]);
   }
@@ -37,7 +37,7 @@ export default function App() {
           items={items}
           onDeleteItem={handleDeleteItem}
           onToggleItem={handleToggleItem}
-          onClearList={handleClearItems}
+          onClearList={handleClearAllItems}
         />
         <Stats items={items} />
       </div>
